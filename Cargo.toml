@@ -1,11 +1,11 @@
 [package]
 name = "guide-counter"
-version = "0.1.3"
+version = "0.1.3.AL"
 edition = "2021"
 authors = ["Tim Fennell"]
 license = "MIT"
-repository = "https://github.com/fulcrumgenomics/guide-counter"
-homepage = "https://github.com/fulcrumgenomics/guide-counter"
+repository = "https://github.com/arkriloth0/guide-counter"
+homepage = "https://github.com/arkriloth0/guide-counter"
 description = "Fast and accurate guide counting for CRISPR screens."
 readme = "README.md"
 categories = ["science"]
