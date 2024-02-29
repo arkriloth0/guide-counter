@@ -75,8 +75,8 @@ impl GuideLibrary {
 
         if guides.is_empty() {
             Ok(GuideLibrary { guides, guide_length: 0 })
-        } else if lengths.len() != 1 {
-            Err(anyhow!("More than one guide length found: {}.", lengths.iter().join(", ")))
+        # } else if lengths.len() != 1 {
+        #     Err(anyhow!("More than one guide length found: {}.", lengths.iter().join(", ")))
         } else if !bad.is_empty() {
             Err(anyhow!("{} guides had non-ACGT bases in their sequence.", bad.len()))
         } else if unique.len() < guides.len() {
