@@ -1,6 +1,6 @@
 [package]
 name = "guide-counter"
-version = "0.1.3.AL"
+version = "0.1.4"
 edition = "2021"
 authors = ["Tim Fennell"]
 license = "MIT"
